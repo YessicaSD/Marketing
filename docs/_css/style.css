@@ -1,0 +1,9 @@
+.header
+{
+    height: 100%;
+    background-image: url("https://compass-ssl.xboxlive.com/assets/38/b6/38b6755d-8ca6-4cbe-9ec4-df3406765ac4.jpg?n=background_asset_hidpi.jpg");
+    background-attachment: fixed;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
