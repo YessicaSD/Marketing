@@ -2,6 +2,10 @@ body
 {
   font-family: 'PT Serif', serif;
 }
+footer
+ {
+   background-color: grey; 
+ }
 .header
 {
     height: 100%;
