@@ -13,9 +13,9 @@ html {
   /* overflow-y: scroll;*/
   overflow-x: hidden;
 }
-footer
+footer, nav
  {
-   background-color: grey; 
+   background-color: rgb(16, 38, 36); 
  }
 .header
 {
@@ -43,4 +43,66 @@ footer
   background-image: url("https://videoguejos.com/wp-content/uploads/2018/05/seaofthieves.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.carousel
+{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.SocialMedia {
+  /*position: absolute;*/
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.btnf,
+.btnt,
+.btntw,
+.btng,
+.btny,
+.btnd {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  /* background: #f1f1f1; */
+  margin: 10px;
+  border-radius: 30%;
+  /* box-shadow: 0 5px 13px -5px #00000070; */
+  color: rgb(105, 103, 99);
+  overflow: hidden;
+  position: relative;
+}
+.btntw:hover
+{
+  color: #6441a5;
+}
+.btnf:hover{
+  color: #3b5998;
+}
+.btnt:hover{
+  color: #00acee;
+}
+
+.btng:hover {
+  color: #6e5494;
+}
+
+.btny:hover {
+  color: #cd201f;
+}
+.btnd:hover
+{
+  color: #7289da;
+}
+
+.btnf,
+.btnt,
+.btntw,
+.btng,
+.btny,
+.btnd i {
+  line-height: 90px;
+  font-size: 26px;
+  transition: 0.2s linear;
 }
