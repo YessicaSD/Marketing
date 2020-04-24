@@ -1,0 +1,39 @@
+.backgroundFlag
+{
+    background-image: url("/_assets/NavBar.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+.background-video
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+}
+.home_logo
+{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 40%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: transparent no-repeat 50% 50%/auto 100%;
+}
+.background-video_video
+{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
