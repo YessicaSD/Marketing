@@ -9,10 +9,21 @@ html {
 
   font-weight: 400;
   line-height: 1.8em;
-  color: rgb(102, 102, 102);
-
+  color: white;
+  background-color: rgb(11, 30, 36);
   /* overflow-y: scroll;*/
 
+}
+.buybackground
+{
+  background-image: url(https://compass-ssl.xboxlive.com/assets/e9/cb/e9cbe216-8213-41d2-bdd7-f0f2fb70d9e5.jpg?n=au_footerbanner_rt.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.footerBackground
+{
+  background-image: url("/_assets/NavBarFlipVertical.png");
 }
 .backgroundFlag
 {
@@ -22,20 +33,6 @@ html {
     background-size: 100% 100%;
     background-color: transparent;
 }
-*{
-    box-sizing: border-box;
-  }
-  
-  body{
-    margin:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:1rem;
-    font-weight:normal;
-    line-height:1.5;
-    color:#333;
-    overflow-x:hidden;
-  }
-  
   .v-header{
     height:100vh;
     display:flex;
@@ -117,7 +114,19 @@ html {
 {
   background-image: url(/_assets/TheArena/backgroundImage.png);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
    background-size: cover;
   
+}
+
+.trailer-Background
+{
+  background-image: url(https://videoguejos.com/wp-content/uploads/2018/05/seaofthieves.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.gradient-left
+{
+  background: linear-gradient(90deg, rgba(2,15,14,1) 0%, rgba(4,55,51,1) 47%, rgba(7,102,95,1) 77%, rgba(7,176,163,1) 100%);
 }
