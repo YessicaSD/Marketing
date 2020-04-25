@@ -115,7 +115,9 @@ html {
 
 .arenaBackground
 {
+  background-image: url(/_assets/TheArena/backgroundImage.png);
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
    background-size: cover;
+  
 }
