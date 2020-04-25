@@ -1,3 +1,19 @@
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'PT Serif', serif;
+
+  font-weight: 400;
+  line-height: 1.8em;
+  color: rgb(102, 102, 102);
+
+  /* overflow-y: scroll;*/
+
+}
 .backgroundFlag
 {
     background-image: url("/_assets/NavBar.png");
@@ -6,34 +22,100 @@
     background-size: 100% 100%;
     background-color: transparent;
 }
-.background-video
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    font-weight:normal;
+    line-height:1.5;
+    color:#333;
+    overflow-x:hidden;
+  }
+  
+  .v-header{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    color:#fff;
+  }
+  
+  .containerOwn{
+    max-width:960px;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin:auto;
+    text-align:center;
+  }
+  
+  .fullscreen-video-wrap{
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+  }
+  
+  .fullscreen-video-wrap video{
+    min-height:100%;
+    min-width:100%;
+  }
+  
+  .header-overlay{
+    height:100vh;
+    top:0;
+    left:0;
+    width:100vw;
+    z-index:1;
+    background:#225470;
+    opacity:0.85;
+  }
+  
+  .header-content{
+    z-index:2;
+  }
+  
+  .header-content h1{
+    font-size:50px;
+    margin-bottom:0;
+  }
+  
+  .header-content p{
+    font-size:1.5rem;
+    display:block;
+    padding-bottom:2rem;
+  }
+  
+  .btn{
+    background: #34b3a0;
+    color:#fff;
+    font-size:1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+  
+  .section{
+    padding:20px 0;
+  }
+  
+  .section-b{
+    background:#333;
+    color:#fff;
+  }
+  
+  @media(max-width:960px){
+    .container{
+      padding-right:3rem;
+      padding-left:3rem;
+    }
+  }
+
+.arenaBackground
 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-}
-.home_logo
-{
-    z-index: 10;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
-    height: 40%;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    background: transparent no-repeat 50% 50%/auto 100%;
-}
-.background-video_video
-{
-    width: 1920px;
-    height: 1080px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    margin-left: -960px;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+   background-size: cover;
 }
